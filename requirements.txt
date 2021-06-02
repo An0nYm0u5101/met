@@ -1,4 +1,4 @@
-Django==1.7.7
+Django==2.2.24
 MySQL-python
 lxml>=2.3.5
 Pillow
