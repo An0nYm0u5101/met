@@ -2,7 +2,7 @@ Django==1.7.7
 MySQL-python
 lxml>=2.3.5
 Pillow
-requests>=1.0.0
+requests>=2.32.2
 requests-cache
 djangosaml2>=0.9.0
 django-pagination>=1.0.7
@@ -16,3 +16,6 @@ slackclient
 pyvirtualdisplay
 selenium
 numpy
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
