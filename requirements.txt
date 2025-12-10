@@ -1,4 +1,4 @@
-Django==1.7.7
+Django==4.2.27
 MySQL-python
 lxml>=2.3.5
 Pillow
@@ -16,3 +16,5 @@ slackclient
 pyvirtualdisplay
 selenium
 numpy
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
